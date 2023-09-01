@@ -25,7 +25,7 @@ app.use('/', router)
 
 const dbOptions = {useNewUrlParser: true, useUnifiedTopology: true}
 
-mongoose.connect("mongodb+srv://adamos:adamos@datadebudgie.vtni4ep.mongodb.net/DeBudgie?retryWrites=true&w=majority", dbOptions)
+mongoose.connect("mongodb+srv:URI and password ", dbOptions)
 .then(()=> console.log("DB connected"))
 .catch((err)=> console.log(err))
 
